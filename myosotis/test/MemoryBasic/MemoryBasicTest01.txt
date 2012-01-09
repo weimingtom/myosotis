@@ -1,0 +1,27 @@
+'コメントテスト
+rem これもコメント
+
+a = rand(10)
+b = rand(10)
+
+a = a + b
+
+c = a + 3 * b + 4 * a
+
+
+if a == b then
+	c = a + b
+else
+	c = a - b
+endif
+
+for i=1 to 10
+	a = a + 1
+next
+
+
+while a != 0
+	a = a - 1
+wend
+
+end
